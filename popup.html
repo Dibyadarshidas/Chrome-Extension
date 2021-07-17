@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Didas Handles</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+ 
+    <style>
+        html, body {
+            font-family: "Inconsolata", "sans";
+            font-size: 14px;
+            margin: 0;
+            min-height: 180px;
+            padding: 0;
+            width: 384px;
+            background-color: black;
+        }
+        h1{
+           font-size: 22px;
+           font-weight: 400;
+           margin: 0;
+           color: #02B3B4 ;
+        }
+        a:link, a:visited{
+            color: #fff;
+            text-decoration: none;
+            outline: 0;
+        }
+        img{
+            width: 40px;
+        }
+        .modal-header{
+            align-items: center;
+            border-bottom: 0.5px solid #dadada;
+        }
+        .modal-content{
+            padding: 0 22px;
+            color: #fff;
+        }
+        .modal-icons{
+            border-top: 0.5px solid #dadada;
+            height: 60px;
+            width: 100px;
+        }
+        .logo{
+            padding: 16px;
+        }
+        .logo-icon{
+            vertical-align: text-bottom;
+            margin-right: 12px;
+        }
+        .version{
+            color: #fff;
+            font-size: 18px;
+        }
+        .flex-container{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 22px;
+        }
+        .flex{
+            opacity: 1;
+            transition: opacity 0.2s ease-in-out;
+            width : 120px;
+            margin: 0 10px;
+        }
+        .flex:hover{
+            opacity: 0.4;
+        }
+        .flex .fa,.fab{
+            font-size: 35px;
+            color: #02B3B4 ;
+        }
+      
+    </style>
+
+</head>
+  <body>
+      
+      <div class="modal-header">
+          <h1 class="logo">
+              <img src="./images/logo.png" alt="Didas Handles" class="logo-icon">Didas Handles <span class="version">(1.0.0)</span>
+          </h1>
+      </div>
+      <div class="modal-content">
+          <p>Easily access Didas Social icons</p>
+      </div>
+      <div class="modal-icons" >
+        <div class="flex-container">
+            <div class="flex">
+                <a target="_blank" href="https://dibyadarshi.netlify.app">
+                    <i class="fa fa-globe">
+
+                    </i>
+                </a>
+            </div>
+            <div class="flex">
+                <a target="_blank" href="https://www.linkedin.com/in/dibyadas">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div><div class="flex">
+                <a target="_blank" href="https://github.com/Dibyadarshidas">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div><div class="flex">
+                <a target="_blank" href="https://codepen.io/dibyadarshidas">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </div><div class="flex">
+                <a target="_blank" href="https://dribbble.com/Dibyadarshi">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+            </div>
+        </div>
+      </div>
+    
+      <script src="./popup.js"></script>
+  </body>
+</html>
